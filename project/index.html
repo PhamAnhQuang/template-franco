@@ -10,10 +10,12 @@
     
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
     <link rel="stylesheet/less" type="text/css" href="assets/scss/style.scss" />
-    <script href="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
-
+    <!-- font 'Montserrat', sans-serif -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>FRANCO</title>
   </head>
   <body>
@@ -70,7 +72,7 @@
     </div>
     <hr class="hr-header">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-md-8 col-12 img-content">
           <div class="img-content-left">
             <img src="assets/images/Ads1.png" alt="">
@@ -86,14 +88,49 @@
             <button class="btn-shop-folio">Shop Now</button>
           </div>
         </div>
+      </div> -->
+
+      <div class="row">
+        <div class="col-md-12 col-lg-8 col-xl-8 col-12">
+          <div class="banner-left-ad1">
+            <img src="assets/images/Ad1Content.jpg" alt="">            
+            <div class="ad1-content">
+              <h3>Two High-end Mater</h3>
+            </div>  
+            <button class="btn-shop-now">Shop Now</button>          
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4 col-xl-4 col-12">          
+            <div class="banner-right-ad2">
+              <img class="img-ad2-content" src="assets/images/Ad2Content.jpg"  alt="">
+              <div class="ad2-content">
+                <h3>small thing</h3>
+                <h2>make different</h2>
+              </div>                         
+            </div>
+            <div class="banner-right-ad3">
+              <img src="assets/images/Ad3Content.jpg"  alt="">
+              <div class="ad3-content">
+                <h3>folio</h3>
+                <h2>backpack</h2>
+              </div>
+              <button class="btn-shop-now-folio">Shop Now</button>
+            </div>                                  
+        </div>
+        <!-- <div class="col-md-6 col-lg-4 col-xl-4 col-12">
+          <div class="r">
+            <img src="assets/images/Ads3.png" alt="">
+          </div>
+        </div> -->
       </div>
+
       <div class="row">
          <div class="featured-item">
-            <p class="cl-purple fs-12">FRANCO</p><br>
-            <div class="bold">FEATURED ITEMS</div>            
-            <hr class="bg-cl-purple">
+            <p class="cl-purple pd-bottom-7 fs-12">FRANCO</p>
+            <p class="pd-bottom-18 fs-24">FEATURED ITEMS</p>                        
          </div>
-       </div>
+      </div>
+
       <div class="row">
         <div class="col-lg-3 col-md-6 col-12">
           <div class="item-intro">
@@ -101,9 +138,15 @@
             <button class="btn-cart">ADD TO CART</button>
           </div>
           <div class="item-text">
-            <p class="bold">Suspendisse id volutpat</p>
-            <p><i class="far fa-star cl-orange"></i></p>
-            <p class="d-inline line-through cl-grey">$99.00 </p><p class="d-inline cl-purple bold">$84.00</p>
+            <p class="item-text-title fs-13">Suspendisse id volutpat</p>
+            <p class="item-text-star">
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-grey fa-xs"></i>
+            </p>
+            <p class="d-inline line-through cl-grey">$99.00 </p><p class="d-inline cl-purple-dolar">$84.00</p>
           </div>
         </div>  
         <div class="col-lg-3 col-md-6 col-12">
@@ -112,9 +155,15 @@
             <button class="btn-cart">ADD TO CART</button>
           </div>
           <div class="item-text">
-            <p class="bold">Lorem ipsum dolor</p>
-            <p><i class="far fa-star cl-orange"></i></p>
-            <p class="d-inline line-through cl-grey">$99.00</p>            
+            <p class="item-text-title fs-13">Lorem ipsum dolor</p>
+            <p class="item-text-star">
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-grey fa-xs"></i>
+            </p>
+            <p class="d-inline line-through cl-grey">$99.00 </p><p class="d-inline cl-purple-dolar">$84.00</p>
           </div>
         </div>  
         <div class="col-lg-3 col-md-6 col-12">
@@ -123,9 +172,15 @@
             <button class="btn-cart">ADD TO CART</button>
           </div>
           <div class="item-text">
-            <p class="bold">Lorem ipsum dolor</p>
-            <p><i class="far fa-star cl-orange"></i></p>
-            <p class="d-inline line-through cl-grey">$99.00</p>            
+            <p class="item-text-title fs-13">Proin sed nulla mi</p>
+            <p class="item-text-star">
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-grey fa-xs"></i>
+            </p>
+            <p class="d-inline cl-purple-dolar">$84.00</p>          
           </div>
         </div>  
         <div class="col-lg-3 col-md-6 col-12">
@@ -134,55 +189,85 @@
             <button class="btn-cart">ADD TO CART</button>
           </div>
           <div class="item-text">
-            <p class="bold">Suspendisse id volutpat</p>
-            <p><i class="far fa-star cl-orange"></i></p>
-            <p class="d-inline line-through cl-grey">$99.00 </p><p class="d-inline cl-purple bold">$84.00</p>
+            <p class="item-text-title fs-13">Aenean placerat</p>
+            <p class="item-text-star">
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+            </p>
+            <p class="d-inline line-through cl-grey">$99.00 </p><p class="d-inline cl-purple-dolar">$84.00</p>
           </div>
         </div>  
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-6 col-12">
           <div class="item-intro">
-            <img src="assets/images/Products11.png" alt="">
+            <img src="assets/images/Products21.png" alt="">
             <button class="btn-cart">ADD TO CART</button>
           </div>
-          <div class="item-text">
-            <p class="bold">Suspendisse id volutpat</p>
-            <p><i class="far fa-star cl-orange"></i></p>
-            <p class="d-inline line-through cl-grey">$99.00 </p><p class="d-inline cl-purple bold">$84.00</p>
+          <div class="item-text-2">
+            <p class="item-text-title fs-13">Suspendisse id volutpat</p>
+            <p class="item-text-star">
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-grey fa-xs"></i>
+            </p>
+            <p class="d-inline line-through cl-grey">$99.00 </p><p class="d-inline cl-purple-dolar">$84.00</p>
           </div>
         </div>  
         <div class="col-lg-3 col-md-6 col-12">
           <div class="item-intro">
-            <img src="assets/images/Products12.png" alt="">
+            <img src="assets/images/Products22.png" alt="">
             <button class="btn-cart">ADD TO CART</button>
           </div>
-          <div class="item-text">
-            <p class="bold">Lorem ipsum dolor</p>
-            <p><i class="far fa-star cl-orange"></i></p>
-            <p class="d-inline line-through cl-grey">$99.00</p>            
+          <div class="item-text-2">
+            <p class="item-text-title fs-13">Lorem ipsum dolor</p>
+            <p class="item-text-star">
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-grey fa-xs"></i>
+            </p>
+            <p class="d-inline line-through cl-grey">$99.00 </p><p class="d-inline cl-purple-dolar">$84.00</p>        
           </div>
         </div>  
         <div class="col-lg-3 col-md-6 col-12">
           <div class="item-intro">
-            <img src="assets/images/Products13.png" alt="">
+            <img src="assets/images/Products23.png" alt="">
             <button class="btn-cart">ADD TO CART</button>
           </div>
-          <div class="item-text">
-            <p class="bold">Lorem ipsum dolor</p>
-            <p><i class="far fa-star cl-orange"></i></p>
-            <p class="d-inline line-through cl-grey">$99.00</p>            
+          <div class="item-text-2">
+            <p class="item-text-title fs-13">Proin sed nulla mi</p>
+            <p class="item-text-star">
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-grey fa-xs"></i>
+            </p>
+            <p class="d-inline cl-purple-dolar">$84.00</p>            
           </div>
         </div>  
         <div class="col-lg-3 col-md-6 col-12">
           <div class="item-intro">
-            <img src="assets/images/Products14.png" alt="">
+            <img src="assets/images/Products24.png" alt="">
             <button class="btn-cart">ADD TO CART</button>
           </div>
-          <div class="item-text">
-            <p class="bold">Suspendisse id volutpat</p>
-            <p><i class="far fa-star cl-orange"></i></p>
-            <p class="d-inline line-through cl-grey">$99.00 </p><p class="d-inline cl-purple bold">$84.00</p>
+          <div class="item-text-2">
+            <p class="item-text-title fs-13">Suspendisse id volutpat</p>
+            <p class="item-text-star">
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+              <i class="far fa-star cl-orange fa-xs"></i>
+            </p>
+            <p class="d-inline line-through cl-grey">$99.00 </p><p class="d-inline cl-purple-dolar">$84.00</p>  
           </div>
         </div>  
       </div>
@@ -191,19 +276,23 @@
       <!-- <div class="row"> -->
         <div class="wrapper" style="background-image:url('assets/images/Blog.png');">
           <div class="blog">
-            <p class="fs-12 cl-purple">LATEST</p>
-            <p class="fs-24 pd-bottom-25">NEWS & EVENTS</p>
-            <hr class="bg-cl-purple-center">
+            <p class="fs-12 cl-purple pd-bottom-5">LATEST</p>
+            <p class="fs-24 pd-bottom-20">NEWS & EVENTS</p>
+            <hr class="hr-blog">
           </div>  
           <div class="container autoplay-slider">             
              <div class="holder">
                 <div class="box bg-white">
                   <div class="box-header">
-                    <img src="assets/images/Post1.png" alt="">
+                    <img src="assets/images/Post1.jpg" alt="">
+                    <div class="border-date">
+                      <p class="month">Jan</p>
+                      <p class="day">23</p>
+                    </div>
                   </div>
                   <div class="box-body text-left">
                     <div class="box-body-title">
-                      <a href="" class="text-bold fs-16">In commodo dolor vitae</a>  
+                      <a href="" class="post-title fs-16">In commodo dolor vitae</a>  
                     </div>                        
                     <p class="fs-14">Aliquam tempor sagittis neque,vel aliquam risus consectetur vel. Aenean hendreit, elit a lacinia suscipit, orci mauris.ol</p>
                   </div>
@@ -216,11 +305,15 @@
              <div class="holder">
                <div class="box bg-white">
                   <div class="box-header">
-                    <img src="assets/images/Post2.png" alt="">
+                    <img src="assets/images/Post2.jpg" alt="">
+                    <div class="border-date">
+                      <p class="month">Jan</p>
+                      <p class="day">23</p>
+                    </div>
                   </div>
                    <div class="box-body text-left">
                     <div class="box-body-title">
-                      <a href="" class="text-bold fs-16">In commodo dolor vitae</a>  
+                      <a href="" class="post-title fs-16">Vivamus non dignissim elit</a>  
                     </div>                        
                     <p class="fs-14">Aliquam tempor sagittis neque,vel aliquam risus consectetur vel. Aenean hendreit, elit a lacinia suscipit, orci mauris.ol</p>
                   </div>
@@ -233,11 +326,15 @@
              <div class="holder">
                 <div class="box bg-white">
                   <div class="box-header">
-                    <img src="assets/images/Post3.png" alt="">
+                    <img src="assets/images/Post3.jpg" alt="">
+                    <div class="border-date">
+                      <p class="month">Jan</p>
+                      <p class="day">23</p>
+                    </div>
                   </div>
                    <div class="box-body text-left">
                     <div class="box-body-title">
-                      <a href="" class="text-bold fs-16">In commodo dolor vitae</a>  
+                      <a href="" class="post-title fs-16">Ut lacinia erat ut diam volutpat</a>  
                     </div>                        
                     <p class="fs-14">Aliquam tempor sagittis neque,vel aliquam risus consectetur vel. Aenean hendreit, elit a lacinia suscipit, orci mauris.ol</p>
                   </div>
@@ -254,7 +351,7 @@
                   </div>
                   <div class="box-body text-left">
                     <div class="box-body-title">
-                      <a href="" class="text-bold fs-16">In commodo dolor vitae</a>  
+                      <a href="" class="post-title fs-16">In commodo dolor vitae</a>  
                     </div>                        
                     <p class="fs-14">Aliquam tempor sagittis neque,vel aliquam risus consectetur vel. Aenean hendreit, elit a lacinia suscipit, orci mauris.ol</p>
                   </div>
@@ -272,24 +369,22 @@
     <footer> 
       <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-md-4 col-12">
+            <div class="col-lg-4 col-md-12 col-12">
               <div class="footer-title">
                 <p>About Franco</p>
               </div>
-              <hr class="hr-about-us">
-              <div class="footer-content">
+              <div class="footer-content fs-16">
                 <p>
                   Aliquam tempor saggittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia susipit orci mauris vulputate mi, eu interdum nunc diam at ipsum.
                 </p>
               </div>
             </div>
             
-            <div class="col-lg-4 col-md-4 col-12">
-              <div class="footer-title">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="footer-title-navigation">
                 <p>Navigation</p>
               </div>
-              <hr class="hr-navigation">
-              <div class="footer-content">
+              <div class="footer-content-navigation">
                 <div class="row">
                   <div class="col-custom">
                     <a href="">Home</a><br>
@@ -311,12 +406,11 @@
               </div>
             </div>
             
-            <div class="col-lg-4 col-md-4 col-12">
-              <div class="footer-title">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="footer-title-shop">
                 <p>Shop Location</p>
               </div>
-              <hr class="hr-address">
-              <div class="footer-content">         
+              <div class="footer-content-shop"> 
                   <i class="far fa-map"></i> 500 Hennessy Road <br>Causeway Bay,Hong Kong <br>
                   <i class="fas fa-phone-alt"></i> +1 23456789 <br>
                   <i class="far fa-envelope"></i> contact@yourdomain.com
@@ -324,26 +418,38 @@
             </div>    
           </div>        
       </div>
-      <hr class="hr-footer">
+      <hr class="hr-footer-content">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-12">
+          <div class="col-lg-4 col-md-12 col-12">
             <div class="copyright">
-              <p>&copy Copyright 2015 & Made with <i class="fas fa-heart heartheart"></i> by ArrowHitech</p>
+              <p>&copy; Copyright 2015 & Made with <i class="fas fa-heart heartheart"></i> by ArrowHitech</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-12">
+          <div class="col-lg-4 col-md-12 col-12">
             <div class="copyright">
               
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-12">
+          <div class="col-lg-4 col-md-12 col-12">
             <div class="copyright">
-              <img src="assets/images/payment.png" style="float: right;" alt="">
+              <img class="payment" src="assets/images/payment.png" alt="">
             </div>
           </div>
         </div>
       </div>
+
+      <!-- <div class="container">
+          <div class="footer-bottom" style="text-align: center;">
+            <div class="copyright" style="width: 100%;">
+              <p>&copy; Copyright 2015 & Made with <i class="fas fa-heart heartheart"></i> by ArrowHitech</p>
+            </div>
+            <div class="icon" style="width: 40%; ">
+              <img class="payment" src="assets/images/payment.png" alt="">
+            </div>
+          </div>
+          
+      </div> -->
     </footer>
     
     <!-- Optional JavaScript -->
@@ -352,10 +458,9 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script>
-      
-    $('.autoplay-slider').slick({
+    $('.autoplay-slider').slick({        
         dots: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -365,6 +470,13 @@
         prevArrow: false,
         nextArrow: false,
         responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            arrows: false,
+            slidesToShow: 2
+          }
+        },
         {
           breakpoint: 768,
           settings: {
