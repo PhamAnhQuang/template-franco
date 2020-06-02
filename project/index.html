@@ -259,7 +259,7 @@
             <button class="btn-cart">ADD TO CART</button>
           </div>
           <div class="item-text-2">
-            <p class="item-text-title fs-13">Suspendisse id volutpat</p>
+            <p class="item-text-title fs-13">Aenean placerat</p>
             <p class="item-text-star">
               <i class="far fa-star cl-orange fa-xs"></i>
               <i class="far fa-star cl-orange fa-xs"></i>
@@ -281,6 +281,86 @@
             <hr class="hr-blog">
           </div>  
           <div class="container autoplay-slider">             
+             <div class="holder">
+                <div class="box bg-white">
+                  <div class="box-header">
+                    <img src="assets/images/Post1.jpg" alt="">
+                    <div class="border-date">
+                      <p class="month">Jan</p>
+                      <p class="day">23</p>
+                    </div>
+                  </div>
+                  <div class="box-body text-left">
+                    <div class="box-body-title">
+                      <a href="" class="post-title fs-16">In commodo dolor vitae</a>  
+                    </div>                        
+                    <p class="fs-14">Aliquam tempor sagittis neque,vel aliquam risus consectetur vel. Aenean hendreit, elit a lacinia suscipit, orci mauris.ol</p>
+                  </div>
+                  <hr class="hr-box-body">
+                  <div class="box-footer">
+                    <i class="far fa-comment cl-gray"> 12</i>  <i class="far fa-heart cl-gray">6</i> 
+                  </div>
+                </div>
+             </div>
+             <div class="holder">
+               <div class="box bg-white">
+                  <div class="box-header">
+                    <img src="assets/images/Post2.jpg" alt="">
+                    <div class="border-date">
+                      <p class="month">Jan</p>
+                      <p class="day">23</p>
+                    </div>
+                  </div>
+                   <div class="box-body text-left">
+                    <div class="box-body-title">
+                      <a href="" class="post-title fs-16">Vivamus non dignissim elit</a>  
+                    </div>                        
+                    <p class="fs-14">Aliquam tempor sagittis neque,vel aliquam risus consectetur vel. Aenean hendreit, elit a lacinia suscipit, orci mauris.ol</p>
+                  </div>
+                  <hr class="hr-box-body">
+                  <div class="box-footer">
+                    <i class="far fa-comment cl-gray"> 12</i>  <i class="far fa-heart cl-gray">6</i> 
+                  </div>
+                </div>
+             </div>
+             <div class="holder">
+                <div class="box bg-white">
+                  <div class="box-header">
+                    <img src="assets/images/Post3.jpg" alt="">
+                    <div class="border-date">
+                      <p class="month">Jan</p>
+                      <p class="day">23</p>
+                    </div>
+                  </div>
+                   <div class="box-body text-left">
+                    <div class="box-body-title">
+                      <a href="" class="post-title fs-16">Ut lacinia erat ut diam volutpat</a>  
+                    </div>                        
+                    <p class="fs-14">Aliquam tempor sagittis neque,vel aliquam risus consectetur vel. Aenean hendreit, elit a lacinia suscipit, orci mauris.ol</p>
+                  </div>
+                  <hr class="hr-box-body">
+                  <div class="box-footer">
+                    <i class="far fa-comment cl-gray"> 12</i>  <i class="far fa-heart cl-gray">6</i> 
+                  </div>
+                </div>
+             </div>
+             <div class="holder">
+                <div class="box bg-white">
+                  <div class="box-header">
+                    <img src="assets/images/Post1.png" alt="">
+                  </div>
+                  <div class="box-body text-left">
+                    <div class="box-body-title">
+                      <a href="" class="post-title fs-16">In commodo dolor vitae</a>  
+                    </div>                        
+                    <p class="fs-14">Aliquam tempor sagittis neque,vel aliquam risus consectetur vel. Aenean hendreit, elit a lacinia suscipit, orci mauris.ol</p>
+                  </div>
+                  <hr class="hr-box-body">
+                  <div class="box-footer">
+                    <i class="far fa-comment cl-gray"> 12</i>  <i class="far fa-heart cl-gray"> 6</i> 
+                  </div>
+                </div>
+             </div>
              <div class="holder">
                 <div class="box bg-white">
                   <div class="box-header">
@@ -335,6 +415,23 @@
                    <div class="box-body text-left">
                     <div class="box-body-title">
                       <a href="" class="post-title fs-16">Ut lacinia erat ut diam volutpat</a>  
+                    </div>                        
+                    <p class="fs-14">Aliquam tempor sagittis neque,vel aliquam risus consectetur vel. Aenean hendreit, elit a lacinia suscipit, orci mauris.ol</p>
+                  </div>
+                  <hr class="hr-box-body">
+                  <div class="box-footer">
+                    <i class="far fa-comment cl-gray"> 12</i>  <i class="far fa-heart cl-gray"> 6</i> 
+                  </div>
+                </div>
+             </div>
+             <div class="holder">
+                <div class="box bg-white">
+                  <div class="box-header">
+                    <img src="assets/images/Post1.png" alt="">
+                  </div>
+                  <div class="box-body text-left">
+                    <div class="box-body-title">
+                      <a href="" class="post-title fs-16">In commodo dolor vitae</a>  
                     </div>                        
                     <p class="fs-14">Aliquam tempor sagittis neque,vel aliquam risus consectetur vel. Aenean hendreit, elit a lacinia suscipit, orci mauris.ol</p>
                   </div>
@@ -463,7 +560,7 @@
     $('.autoplay-slider').slick({        
         dots: true,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         autoplay: true,
         autoplaySpeed: 4000, //DELAY BEFORE NEXT SLIDE IN MILISECONDS
         speed: 800, //SPEED OF THE SLIDER CHANGE
@@ -473,22 +570,25 @@
         {
           breakpoint: 992,
           settings: {
-            arrows: false,
-            slidesToShow: 2
+            arrows: true,
+            slidesToShow: 2,
+            slidesToScroll: 2,          
           }
         },
         {
           breakpoint: 768,
           settings: {
             arrows: false,
-            slidesToShow: 1
+            slidesToShow: 1,  
+            slidesToScroll: 1,             
           }
         },
         {
           breakpoint: 480,
           settings: {
             arrows: false,
-            slidesToShow: 1
+            slidesToShow: 1,
+            slidesToScroll: 1,           
           }
         }
       ]
