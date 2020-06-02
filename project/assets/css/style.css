@@ -364,13 +364,21 @@ footer{
 .footer-content{
 	font-family: 'Montserrat',sans-serif;
 	color: #7e7e7e;
-	padding: 22px 100px 48px 0px;
+	padding: 22px 100px 43px 0px;
 	line-height: 22px;
 	letter-spacing: -1.4px;
 }
 
 .footer-content a{
 	color: white;
+}
+
+.icon-footer{
+	color: #828282;
+}
+
+.fa-twitter,.fa-linkedin-in,.fa-behance,.fa-dribbble{
+	padding-right: 28px;
 }
 
 .footer-content-navigation{
@@ -393,8 +401,11 @@ footer{
 	padding: 22px 0px 0px 100px;
 	line-height: 33px;
 	font-size: 14px;
+	letter-spacing: -0.4px;
 }
-
+.none{
+	padding-left: 30px;
+}
 .col-custom{
 	padding-left: 15px;
 	width: 50%;
@@ -407,14 +418,18 @@ footer{
 }
 .copyright{
 	color: white;
-	padding: 5px 0px 30px;
+	padding: 7px 0px 30px;
 	letter-spacing: -0.6px;
 }
-.fa-map,.fa-phone-alt,.fa-envelope{
+.fa-map,.fa-envelope{
 	padding-right: 10px;
 }
+.fa-phone-alt{
+	padding-right: 15px;
+}
+
 .payment{
-	width: 40%;
+	width: 41%;
 	float: right;
 }
 .cl-gray{
@@ -567,7 +582,7 @@ footer{
 	color: #8262b5;
 }
 .box-footer .far{
-	margin-right: 30px;
+	margin-right: 25px;
 }
 
 .slick-dots {
@@ -857,7 +872,7 @@ footer{
 		color: #7e7e7e;
 		padding: 0px 0px;
 		line-height: 33px;
-		font-size: 14px;
+		font-size: 14px;		
 	}
 }
 @media screen and (max-width: 424px){
